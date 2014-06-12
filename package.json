@@ -1,0 +1,23 @@
+{
+  "name": "handlebars-ansi",
+  "author": "Lloyd Brookes <75pound@gmail.com>",
+  "version": "0.0.0",
+  "description": "",
+  "repository": "https://github.com/75lb/handlebars-ansi.git",
+  "main": "./lib/handlebars-ansi.js",
+  "bin": {
+    "handlebars-ansi": "bin/cli.js"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js",
+    "lint": "jshint lib/*.js bin/*.js test/*.js; echo",
+    "docs": "jsdoc2md -t jsdoc2md/README.hbs lib/*.js > README.md; echo"
+  },
+  "dependencies": {
+    "ansi-escape-sequences": "0.0.1"
+  }
+}
