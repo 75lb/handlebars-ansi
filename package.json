@@ -2,12 +2,9 @@
   "name": "handlebars-ansi",
   "author": "Lloyd Brookes <75pound@gmail.com>",
   "version": "0.0.1",
-  "description": "",
+  "description": "Ansi escape sequence helpers for rendering cli views",
   "repository": "https://github.com/75lb/handlebars-ansi.git",
   "main": "./lib/handlebars-ansi.js",
-  "bin": {
-    "handlebars-ansi": "bin/cli.js"
-  },
   "keywords": [],
   "engines": {
     "node": ">=0.10.0"
